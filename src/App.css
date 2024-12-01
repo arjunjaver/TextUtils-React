@@ -37,4 +37,6 @@
   }
 }
 
-
+body.dark-mode .accordion-button::after {
+  filter: invert(1);
+}
